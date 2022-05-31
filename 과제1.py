@@ -100,5 +100,6 @@ for i in range(n):
 ans = pd.DataFrame(b)
 print(ans)
 
-path_write = 'solution.txt'
+# 솔루션을 출력 파일에 저장
+path_write = 'team01_groupwork/output/result.csv'
 ans.to_csv(path_write, index = False, header = False)
