@@ -103,6 +103,7 @@ print(ans)
 path_write = 'solution.txt'
 ans.to_csv(path_write, index = False, header = False)
 
+
 #로그 관리
 
 import logging
