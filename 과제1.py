@@ -1,4 +1,5 @@
-# 역할 1
+import logging
+
 n = int(input("숫자를 입력하세요: "))
 
 import pandas as pd
@@ -98,3 +99,6 @@ for i in range(n):
 
 ans = pd.DataFrame(b)
 print(ans)
+
+path_write = 'solution.txt'
+ans.to_csv(path_write, index = False, header = False)
