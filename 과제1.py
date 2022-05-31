@@ -101,5 +101,5 @@ ans = pd.DataFrame(b)
 print(ans)
 
 # 솔루션을 출력 파일에 저장
-path_write = 'team01_groupwork/output/result.csv'
+path_write = 'team01_groupwork/output/result.txt'
 ans.to_csv(path_write, index = False, header = False)
