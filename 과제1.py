@@ -97,8 +97,8 @@ b = []
 for i in range(n):
     b.append([row_ind[i], col_ind[i]])
 
-ans = pd.DataFrame(b)
-print(ans)
+answer = pd.DataFrame(b)
+print(answer)
 
 path_write = 'solution.txt'
-ans.to_csv(path_write, index = False, header = False)
+answer.to_csv(path_write, index = False, header = False)
