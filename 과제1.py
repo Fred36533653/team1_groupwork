@@ -90,8 +90,8 @@ print(position)
 print(min_value)
 
 # 결과를 데이터 프레임으로 반환
-row_ind = ['기계 {}'.format(i + 1) for i in range(n)]
-col_ind = ['작업 {}'.format(position[i][1] + 1) for i in range(n)]
+row_ind = ['machine {}'.format(i + 1) for i in range(n)]
+col_ind = ['work {}'.format(position[i][1] + 1) for i in range(n)]
 
 b = []
 for i in range(n):
